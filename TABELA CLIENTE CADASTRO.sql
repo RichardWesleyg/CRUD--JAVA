@@ -1,0 +1,17 @@
+use astronaltas;
+CREATE TABLE clienteCadastro(
+	CPF varchar(11) NOT NULL,
+	NOME varchar(100) DEFAULT NULL,
+	DATA_NASCIMENTO date DEFAULT NULL,
+	IDADE smallint DEFAULT NULL,
+	SEXO varchar(1) DEFAULT NULL,
+	EMAIL varchar(25) DEFAULT NULL,
+	SENHA varchar(25) DEFAULT NULL,
+    NUMERO varchar(11) DEFAULT NULL,
+    
+    
+  PRIMARY KEY (CPF)
+) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_0900_ai_ci
+
+
+
